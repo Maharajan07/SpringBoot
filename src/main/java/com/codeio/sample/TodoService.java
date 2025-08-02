@@ -15,6 +15,7 @@ public class TodoService {
 //    public TodoService() {
 //        todoRepository = new TodoRepository();
 //    }
+// It will automatically handled by spring.. using @Autowired
 
     public void printTodos() {
         System.out.println(todoRepository.getAllTodos());
